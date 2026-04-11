@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // Bina template string kai code lengthy ho jata hai //
+      //   let user = "Junaid Quraishi";
+      //   document.write("Hello " + user + " Welcome to new Chapter");
+      //   let user = "Junaid Quraishi";
+      //   document.write(`Hello ${user} Let's Start a new Chpater`);
+
+      // isme do kaam ho rhe hai ek variable se value firsname mai ha rhi hai or
+      // or ek function call kai time parameter se value lastname se aa rhi hai
+      let firstName = "Junaid";
+      //   let lastName = "Quraishi";
+      function showName(firstName, lastName) {
+        return `${firstName} ${lastName}`;
+      }
+      let fullName = `Hello ${showName(firstName, "Quraishi")}`;
+      document.write(fullName);
+    </script>
+  </head>
+  <body></body>
+</html>
