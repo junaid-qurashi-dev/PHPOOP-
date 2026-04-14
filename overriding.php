@@ -17,5 +17,5 @@ class derived extends base
         return $a + $b;
     }
 }
-$obj = new base();
+$obj = new derived();
 echo $obj->calc(21, 21);
